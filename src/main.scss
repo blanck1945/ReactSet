@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  width: 15%;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.link:hover {
+  color: rgb(78, 78, 184);
+  background-color: white;
+  padding: 4px 2px;
+  transition: 0.2s ease-in-out;
+}
+
+._main {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.type {
+  color: rgb(0, 122, 204);
+}
+.react {
+  color: #00d8ff;
+}
+.scss {
+  color: #cc6699;
+}
+.router {
+  color: rgb(45, 45, 45);
+}
+.icons {
+  color: rgb(233, 30, 99);
+}
+.forms {
+  color: rgb(23, 43, 77);
+}
+.axios {
+  color: rgb(3, 3, 3);
+}
+.lazy {
+  color: rgb(254, 22, 99);
+}
+.query {
+  color: hsl(205, 100%, 13%);
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+
+.icon-img {
+  width: 35px;
+}
+
+.type-icon {
+  background-color: rgb(0, 122, 204);
+  color: white;
+}
+
+.react-icon {
+  padding: 2px 3px;
+  color: rgb(97, 218, 251);
+  background-color: white;
+}
+
+.scss-icon {
+  padding: 2px 3px;
+  color: rgb(191, 64, 128);
+  background-color: white;
+}
+
+.router-icon {
+  padding: 2px 3px;
+  background-color: white;
+  color: rgb(37, 37, 37);
+}
+
+.icons-icon {
+  padding: 2px 3px;
+  background-color: white;
+}
+
+.formik-icon {
+  height: 35px;
+  padding: 2px 3px;
+  background-color: white;
+  color: rgb(23, 43, 77);
+}
